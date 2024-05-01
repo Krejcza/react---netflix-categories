@@ -1,3 +1,3 @@
-const Categories = ['komedie', 'romantický', 'akční']
+const Categories = ['komedie', 'romantický', 'akční', 'zajímavé']
 
 export default Categories

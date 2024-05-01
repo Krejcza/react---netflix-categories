@@ -14,7 +14,7 @@ const App = () =>{
     <div className='all-buttons'>
       {
         categories.map((oneCategory, index) =>{
-          return <button key={index} onClick={()=> setTypeOfMovie(oneCategory)}>{oneCategory}</button>
+          return <button className='one-button' key={index} onClick={()=> setTypeOfMovie(oneCategory)}>{oneCategory}</button>
         })
       }
     </div>
